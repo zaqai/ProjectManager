@@ -16,5 +16,5 @@
 
 ![img](https://oss.zhou29.top/img/wpsA67A.tmp.png)
 
-<center>更详细的说明文档见doc目录内</center>
+<center>更详细的说明文档见doc文件</center>
 
