@@ -1,19 +1,11 @@
 package entity;
 
 public class Student {
-	/**
-	 * 鲜花标识符
-	 */
+
 	private String id;
 
-	/**
-	 * 鲜花名称
-	 */
 	private String name;
 
-	/**
-	 * 鲜花类别
-	 */
 	private String passwd;
 	private String p_id;
 

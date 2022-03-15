@@ -11,9 +11,6 @@ import dao.BaseDao;
 import dao.ProjectDao;
 import entity.Project;
 
-/**
- * 鲜花数据库操作类
- */
 public class ProjectDaoImpl extends BaseDao implements ProjectDao {
 
     private Connection conn = null; // 保存数据库连接
@@ -22,9 +19,6 @@ public class ProjectDaoImpl extends BaseDao implements ProjectDao {
 
     private ResultSet rs = null; // 用户保存查询结果集
 
-    /**
-     * 查询所有鲜花
-     */
     @Override
     public List<Project> getAllProject() {
         List<Project> projectList = new ArrayList<Project>();
@@ -58,9 +52,6 @@ public class ProjectDaoImpl extends BaseDao implements ProjectDao {
         return projectList;
     }
 
-    /**
-     * 根据参数查询相应符合条件鲜花
-     */
     @Override
     public List<Project> selectProject(String sql, String[] param) {
         List<Project> projectList = new ArrayList<Project>();

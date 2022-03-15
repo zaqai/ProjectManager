@@ -1,14 +1,9 @@
 package entity;
 
 public class Project {
-    /**
-     * 鲜花标识符
-     */
+
     private String id;
 
-    /**
-     * 鲜花名称
-     */
     private String name;
     private String h_id;
     private int s_num;
@@ -46,10 +41,6 @@ public class Project {
     public void setS_num(int s_num) {
         this.s_num = s_num;
     }
-
-    /**
-     * 鲜花类别
-     */
 
     private String t_id;
     private String schedule;

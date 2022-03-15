@@ -46,6 +46,9 @@ public class AdministerDaoImpl extends BaseDao implements AdministerDao {
         } finally {
             super.closeAll(conn, pstmt, rs);
         }
+        if (administer.getId() == null) {
+            return null;
+        }
         return administer;
     }
 

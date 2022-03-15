@@ -9,9 +9,6 @@ public interface StudentService {
      */
     public Student login();
 
-    /**
-     * 根据顾客标识符（id）获得到该顾客所有鲜花信息
-     */
     public List<Project> getAllProject();
 
     public List<Project> searchAvailableProject();
@@ -26,8 +23,6 @@ public interface StudentService {
 
     /**
      * 用于申报项目之后更新本地存储的学生信息（申报之前本地的stu.getP_id()为空，申报时只更改了数据库）
-     * 
-     * @return
      */
     public Student update(String s_id);
 

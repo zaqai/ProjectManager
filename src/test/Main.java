@@ -23,10 +23,10 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Main.startFlowerShop();
+		Main.startProjectManager();
 	}
 
-	private static void startFlowerShop() {
+	private static void startProjectManager() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("----------大学生创新项目管理系统-----------");
 		System.out.println("请选择登录角色  1.学生  2.老师  3.管理员");

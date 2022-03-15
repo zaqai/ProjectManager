@@ -16,7 +16,7 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public Student login() {
         Scanner input = new Scanner(System.in);
-        // 1、输入顾客姓名
+
         System.out.println("请先登录，请您输入id：");
         String stuId = input.nextLine().trim();
         System.out.println("请您输入密码：");

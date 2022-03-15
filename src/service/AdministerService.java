@@ -14,20 +14,12 @@ public interface AdministerService {
 
     public List<Project> getAllProject();
 
-    /**
-     * 选择老师已经同意的项目
-     * 
-     * @param sql
-     * @param param
-     * @return
-     */
+    // 选择老师已经同意的项目
+
     public List<Project> selectAgreedProject();
 
     /**
-     * 通过老师已经同意的项目
-     * 
-     * @param p_id
-     * @return
+     * 对指导老师已经同意的项目予以通过
      */
     public int passProject(String p_id);
 

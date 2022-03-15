@@ -11,9 +11,6 @@ import dao.BaseDao;
 import dao.StudentDao;
 import entity.Student;
 
-/**
- * 鲜花数据库操作类
- */
 public class StudentDaoImpl extends BaseDao implements StudentDao {
 
 	private Connection conn = null; // 保存数据库连接
@@ -22,9 +19,6 @@ public class StudentDaoImpl extends BaseDao implements StudentDao {
 
 	private ResultSet rs = null; // 用户保存查询结果集
 
-	/**
-	 * 查询所有鲜花
-	 */
 	@Override
 	public List<Student> getAllStudent() {
 		List<Student> studentList = new ArrayList<Student>();
@@ -54,9 +48,6 @@ public class StudentDaoImpl extends BaseDao implements StudentDao {
 		return studentList;
 	}
 
-	/**
-	 * 根据参数查询相应符合条件鲜花
-	 */
 	@Override
 	public List<Student> selectStudent(String sql, String[] param) {
 		List<Student> studentList = new ArrayList<Student>();
